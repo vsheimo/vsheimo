@@ -1,0 +1,5 @@
+{
+  "status": "manual_required",
+  "reason": "Automated Kwork competitor scraping was not performed because Kwork robots.txt restricts search/pagination paths and the user agreement prohibits automated scraping/data collection with bots. Use the manual template and queries from KWORK_POSITIONING_REPORT.md.",
+  "competitors": []
+}
