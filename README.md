@@ -42,3 +42,4 @@
 - [PERIPHERAL_SKILLS.md](PERIPHERAL_SKILLS.md) - подтвержденные, вероятные и смежные навыки.
 - [PROOF_BACKLOG.md](PROOF_BACKLOG.md) - какие доказательства нужно собрать для портфолио.
 - [research/KWORK_PROFILE_REWRITE.md](research/KWORK_PROFILE_REWRITE.md) - варианты переписывания профиля.
+- [spouse_kwork/README.md](spouse_kwork/README.md) - пакет для Kwork-профиля супруги: учебная помощь, объяснение, презентации, карточки товаров, фото и тексты.
