@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Призма — витрина концепта</title>
+<style>
+  :root{
+    --bg:#F6F8F7; --ink:#2B302F; --muted:#6B7672; --line:#E2E8E5;
+    --teal:#3E6B66; --teal-soft:#5B8A86; --accent:#7FB2AC; --card:#FFFFFF;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);
+    font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    display:flex;justify-content:center;padding:32px;}
+  .card{width:1120px;background:var(--card);border:1px solid var(--line);
+    border-radius:22px;padding:52px 56px;
+    box-shadow:0 18px 50px rgba(43,48,47,.07);}
+  .kicker{font-size:14px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--teal-soft);font-weight:600;}
+  h1{font-size:42px;line-height:1.12;margin:14px 0 8px;font-weight:700;letter-spacing:-.5px;}
+  h1 .grey{color:var(--muted);font-weight:400;}
+  .sub{font-size:18px;color:var(--muted);max-width:760px;line-height:1.5;}
+
+  /* Prism visual */
+  .stage{display:flex;align-items:center;gap:26px;margin:38px 0 14px;}
+  .beam-in{flex:1;height:14px;border-radius:8px;
+    background:linear-gradient(90deg,#C9D2CF,#AEB9B5);}
+  .label{font-size:13px;color:var(--muted);text-align:center;margin-top:10px;}
+  .prism{width:0;height:0;border-left:34px solid transparent;border-right:34px solid transparent;
+    border-bottom:60px solid var(--teal);filter:drop-shadow(0 6px 12px rgba(62,107,102,.28));}
+  .fan{flex:1.2;display:flex;flex-direction:column;gap:6px;}
+  .ray{height:7px;border-radius:6px;}
+  .r1{background:#E8B04B;width:96%} .r2{background:#7FB2AC;width:90%}
+  .r3{background:#5B8A86;width:84%} .r4{background:#6F9BD1;width:78%}
+  .col{display:flex;flex-direction:column;align-items:center;}
+
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px;}
+  .tile{border:1px solid var(--line);border-radius:14px;padding:20px 22px;background:#FCFDFD;}
+  .tile .obj{font-size:14px;color:var(--teal-soft);font-weight:600;letter-spacing:.02em;}
+  .tile .ins{font-size:16px;line-height:1.45;margin-top:8px;color:var(--ink);}
+  .tile .ins b{color:var(--teal);font-weight:600;}
+
+  .foot{margin-top:34px;padding-top:22px;border-top:1px solid var(--line);
+    display:flex;justify-content:space-between;align-items:center;gap:20px;}
+  .foot p{font-size:17px;color:var(--ink);max-width:720px;line-height:1.5;}
+  .foot .sig{font-size:14px;color:var(--muted);white-space:nowrap;}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="kicker">Как я объясняю</div>
+    <h1>Сложное <span class="grey">→</span> понятное</h1>
+    <p class="sub">Каждый предмет — это призма: способ увидеть обычную вещь по-новому. Я не пересказываю учебник, а показываю механизм через то, что вы уже знаете.</p>
+
+    <div class="stage">
+      <div class="col" style="flex:1">
+        <div class="beam-in"></div>
+        <div class="label">тема, которая пугает</div>
+      </div>
+      <div class="col">
+        <div class="prism"></div>
+        <div class="label">призма</div>
+      </div>
+      <div class="col" style="flex:1.2">
+        <div class="fan">
+          <div class="ray r1"></div><div class="ray r2"></div>
+          <div class="ray r3"></div><div class="ray r4"></div>
+        </div>
+        <div class="label">понятные шаги</div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="tile">
+        <div class="obj">Физика → холодильник</div>
+        <div class="ins">Он не делает холод, а <b>переносит тепло наружу</b>. Поэтому решётка сзади тёплая.</div>
+      </div>
+      <div class="tile">
+        <div class="obj">Проценты → скидки</div>
+        <div class="ins">−30%, потом −20% — это <b>не −50%, а −44%</b>. Проценты перемножаются, а не складываются.</div>
+      </div>
+      <div class="tile">
+        <div class="obj">Данные → комод с ячейками</div>
+        <div class="ins">Один факт — в одну ячейку. Тогда данные можно <b>считать и фильтровать</b>, а не только смотреть.</div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <p>Объясню спокойно, без давления. После работы останется не просто файл, а понимание — как это повторить и как объяснить на сдаче.</p>
+      <div class="sig">учебные работы · объяснение · презентации · тексты</div>
+    </div>
+  </div>
+</body>
+</html>
