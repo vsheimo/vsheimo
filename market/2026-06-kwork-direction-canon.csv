@@ -1,0 +1,12 @@
+direction,accounts,recommended_channel,orders_total,live_orders,low_comp_live,max_budget,median_live_offers,score_demand,score_competition,score_budget,weighted_score,canon_verdict,action,proof_needed,source_basis
+"B2B, КП, лиды",Vlad+Nastya,active_exchange,9,6,5,200000,1.5,3,5,5,44,WIN,"Влад: ежедневные отклики, тестовые базы и КП","демо-база 20 строк, ICP, текст первого касания","LIVE+CODEX, LIVE, CODEX"
+"1С, учет, ОСВ, акты",Nastya+Vlad,mixed,7,5,2,180000,11,3,4,5,35,"MIXED: Vlad active, Nastya vitrine",Настя: витрина; Влад: 1С-софт/интеграции на бирже,"обезличенная ОСВ/акт, кто-кому-сколько, список документов","LIVE+CODEX, LIVE, CODEX"
+"Python, парсинг, данные",Vlad,active_exchange,10,10,1,90000,24,5,3,4,34,WIN,Влад: брать через MVP и ограничения источников,"мини-парсер, лог ошибок, CSV до/после","LIVE+CODEX, LIVE"
+"AI, боты, CRM",Vlad,active_exchange,12,9,1,200000,40,5,2,5,33,WIN,"Влад: только scope/discovery, не обещать под ключ без аудита","схема процесса, прототип одного сценария, таблица тестов","LIVE+CODEX, LIVE, CODEX"
+"Web, WordPress, SEO",Vlad+Skip+Nastya,active_exchange,11,4,1,60000,27,2,3,4,25,TAKE,держать как вторую очередь,один обезличенный пример результата,"LIVE+CODEX, LIVE, CODEX"
+"ТЗ, структура, Gantt",Skip+Vlad,active_exchange,3,1,1,21000,2,1,5,2,24,TAKE,"брать только структуру и вопросы, не инженерный проект",один обезличенный пример результата,"LIVE, CODEX"
+Маркетинговая аналитика,Vlad,active_exchange,3,3,0,90000,20,2,3,4,23,TAKE,держать как вторую очередь,один обезличенный пример результата,LIVE
+Смешанные бизнес-задачи,Vlad+Nastya,active_exchange,9,0,0,90000,,2,2,4,20,TAKE,держать как вторую очередь,один обезличенный пример результата,CODEX
+Маркетплейсы,Shared+Vlad,active_exchange,3,3,0,30000,96,2,1,3,15,PARITY,брать только данные/структуру/контент по тесту 5-10 SKU,один обезличенный пример результата,LIVE
+"Документы, договоры, заявки",Nastya,vitrine,6,0,0,9000,,2,2,1,14,PARITY,держать как вторую очередь,"протокол разногласий, таблица рисков, чек-лист заявки",CODEX
+Excel и таблицы,Vlad+Shared+Nastya,active_exchange,6,4,0,4500,67,2,1,1,11,BURY,не брать ручной ввод; брать автоматизацию/учетный контекст,пример формул/сводной/склейки без ручного ввода,"LIVE+CODEX, LIVE, CODEX"

@@ -1,0 +1,11 @@
+path,type,decision,rows_or_sheets,freshness,role,use_rule
+market/2026-06-kwork-orders-ledger-LIVE.csv,live_orders,take as strongest demand signal,45,2026-06-16 logged-in session,"fresh demand, offers, views",can influence canon directly
+market/2026-06-market-reality-LIVE.md,live_memo,take as live interpretation with debt labels,,2026-06-16,updates market split,can influence canon directly
+market/2026-06-kwork-orders-ledger.csv,codex_orders,take with caution,42,2026-06-16 public/manual,fit/risk/hours,can influence canon directly
+market/2026-06-competitor-ledger.csv,competitors,use with caution,24,2026-05-27/2026-06-16 mixed,historic competitor shape,"patterns yes, exact current claims no"
+market/2026-06-kwork-market-fit-LIVE.xlsx,live_workbook,take as source artifact,3 sheets,2026-06-16,live workbook from Claude lane,can influence canon directly
+market/2026-06-kwork-market-fit.xlsx,codex_workbook,take as source artifact,5 sheets,2026-06-16,previous workbook,can influence canon directly
+spouse_kwork/05_KWORK_FULL_COPY_CARDS_RU.md,copy_cards,rebuild,182,pre-live,full field structure,"structure yes, final copy no"
+vlad_kwork/2026-06-kwork-cards-draft.md,copy_cards,expand,15,2026-06-16,Vlad top draft,"structure yes, final copy no"
+vsheimo profile/vsheimo/kwork/kwork_services_pack_v3_more_factual.xlsx,archive_cards,use as idea bank,32,2026-05-27,32 Vlad service ideas,supporting material
+../spreadsheet-cfo-rules-template,rules,use as workbook canon,rules+templates,cloned 2026-06-16,table style and critic pass,supporting material
