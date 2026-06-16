@@ -43,4 +43,4 @@
 - [PROOF_BACKLOG.md](PROOF_BACKLOG.md) - какие доказательства нужно собрать для портфолио.
 - [research/KWORK_PROFILE_REWRITE.md](research/KWORK_PROFILE_REWRITE.md) - варианты переписывания профиля.
 - [spouse_kwork/README.md](spouse_kwork/README.md) - пакет для Kwork-профиля супруги: учебная помощь, объяснение, презентации, карточки товаров, фото и тексты.
-- [prompts/2026-06-kwork-market-fit-megaprompt-ru.md](prompts/2026-06-kwork-market-fit-megaprompt-ru.md) - тяжелый промт для глубокого анализа Kwork-рынка, конкурентов, двух аккаунтов, заказов, рисков и git-артефактов.
+- [prompts/2026-06-kwork-market-fit-megaprompt-ru.md](prompts/2026-06-kwork-market-fit-megaprompt-ru.md) - боевой промт для глубокого анализа Kwork-рынка, конкурентов, двух аккаунтов, заказов, рисков, экономики и git-артефактов.
