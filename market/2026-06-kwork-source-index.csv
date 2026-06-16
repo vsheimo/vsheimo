@@ -1,11 +1,13 @@
-path,type,decision,rows_or_sheets,freshness,role,use_rule
-market/2026-06-kwork-orders-ledger-LIVE.csv,live_orders,take as strongest demand signal,45,2026-06-16 logged-in session,"fresh demand, offers, views",can influence canon directly
-market/2026-06-market-reality-LIVE.md,live_memo,take as live interpretation with debt labels,,2026-06-16,updates market split,can influence canon directly
-market/2026-06-kwork-orders-ledger.csv,codex_orders,take with caution,42,2026-06-16 public/manual,fit/risk/hours,can influence canon directly
-market/2026-06-competitor-ledger.csv,competitors,use with caution,24,2026-05-27/2026-06-16 mixed,historic competitor shape,"patterns yes, exact current claims no"
-market/2026-06-kwork-market-fit-LIVE.xlsx,live_workbook,take as source artifact,3 sheets,2026-06-16,live workbook from Claude lane,can influence canon directly
-market/2026-06-kwork-market-fit.xlsx,codex_workbook,take as source artifact,5 sheets,2026-06-16,previous workbook,can influence canon directly
-spouse_kwork/05_KWORK_FULL_COPY_CARDS_RU.md,copy_cards,rebuild,182,pre-live,full field structure,"structure yes, final copy no"
-vlad_kwork/2026-06-kwork-cards-draft.md,copy_cards,expand,15,2026-06-16,Vlad top draft,"structure yes, final copy no"
-vsheimo profile/vsheimo/kwork/kwork_services_pack_v3_more_factual.xlsx,archive_cards,use as idea bank,32,2026-05-27,32 Vlad service ideas,supporting material
-../spreadsheet-cfo-rules-template,rules,use as workbook canon,rules+templates,cloned 2026-06-16,table style and critic pass,supporting material
+source_id,file,date,method,layer,rows_or_sheets,status,do_not_rewrite,how_used,notes
+S001,market/2026-06-kwork-orders-ledger-LIVE.csv,2026-06-16,logged-in session vladsheimo; window.stateData.wants; kwork_count=offers; priceLimit=budget; views_dirty=views,LIVE,45,"source, do not rewrite",yes,strongest demand signal; also separate sheet Живой слой 16.06,kept separate from May/old scrape
+S002,market/2026-06-market-reality-LIVE.md,2026-06-16,Claude live memo after logged-in Kwork pass,LIVE,,"source, do not rewrite",yes,interpretation layer and debt labels,commission/competitors marked ПРОВЕРИТЬ
+S003,market/2026-06-kwork-market-fit-LIVE.xlsx,2026-06-16,Claude live workbook artifact,LIVE,3 sheets,"source artifact, do not rewrite",yes,cross-check source only,not merged into raw values
+S004,market/2026-06-kwork-market-fit-LIVE.pptx,2026-06-16,Claude live slides artifact,LIVE,deck,"source artifact, do not rewrite",yes,presentation source only,not used for row arithmetic
+S005,market/2026-06-kwork-orders-ledger.csv,2026-06-16,Codex manual/public ledger before LIVE update,CODEX,42,use with caution,no,fit/risk/hours and old order rows,lower freshness than LIVE
+S006,market/2026-06-competitor-ledger.csv,2026-05-27/2026-06-16,"historic competitor notes, not fresh vitrine scrape",COMPETITOR_ARCHIVE,24,ПРОВЕРИТЬ/обновить,no,shape of competition only,fresh competitor cards were not captured
+S007,market/2026-06-kwork-market-fit.xlsx,2026-06-16,previous Codex workbook artifact,CODEX,5 sheets,source artifact,no,base workbook comparison,superseded by CANON
+S008,market/2026-06-kwork-market-fit.pptx,2026-06-16,previous Codex deck artifact,CODEX,deck,source artifact,no,presentation comparison,superseded by CANON
+S009,spouse_kwork/05_KWORK_FULL_COPY_CARDS_RU.md,pre-live,manual Kwork copy package for Nastya,KWORK_COPY,182,"rebuild, not dogma",no,field structure for Kwork cards,copy must be rewritten after market canon
+S010,vlad_kwork/2026-06-kwork-cards-draft.md,2026-06-16,Codex draft Kwork cards for Vlad,KWORK_COPY,15,expand/rebuild,no,Vlad card idea bank,not final copy
+S011,vsheimo profile/vsheimo/kwork/kwork_services_pack_v3_more_factual.xlsx,2026-05-27,archive workbook with old 32-service pack,ARCHIVE,32,idea bank only,no,service idea inventory,old claims need proof
+S012,../spreadsheet-cfo-rules-template,cloned 2026-06-16,spreadsheet rules repository,RULES,rules+templates,use as workbook canon,no,style/source separation/check discipline,"rules, not market data"
