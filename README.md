@@ -37,6 +37,7 @@
 
 ## Kwork упаковка
 
+- [starters/README.md](starters/README.md) - обязательные стартеры проходов: read-first, роли, оппонент, долги, большая карта таблиц, Kwork и Git-routing.
 - [KWORK_POSITIONING.md](KWORK_POSITIONING.md) - позиционирование, короткие поля профиля и навыки.
 - [KWORK_SERVICES.md](KWORK_SERVICES.md) - линейка услуг для Kwork.
 - [PERIPHERAL_SKILLS.md](PERIPHERAL_SKILLS.md) - подтвержденные, вероятные и смежные навыки.
@@ -44,3 +45,13 @@
 - [research/KWORK_PROFILE_REWRITE.md](research/KWORK_PROFILE_REWRITE.md) - варианты переписывания профиля.
 - [spouse_kwork/README.md](spouse_kwork/README.md) - пакет для Kwork-профиля супруги: учебная помощь, объяснение, презентации, карточки товаров, фото и тексты.
 - [prompts/2026-06-kwork-market-fit-megaprompt-ru.md](prompts/2026-06-kwork-market-fit-megaprompt-ru.md) - боевой промт для глубокого анализа Kwork-рынка, конкурентов, двух аккаунтов, заказов, рисков, экономики и git-артефактов.
+
+## Рабочий протокол
+
+Перед большими проходами агент должен начинать не из памяти, а из файлов:
+
+1. прочитать `AGENTS.md`;
+2. открыть нужный starter из `starters/`;
+3. проверить источники и долги;
+4. сохранить результат в Git только точечно, без `git add .`;
+5. для таблиц делать первую вкладку `Карта проекта`, где видна вся логика проекта одним большим полотном.
