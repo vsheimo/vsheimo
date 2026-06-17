@@ -18,8 +18,9 @@ Status: `MANDATORY_READ_FIRST`
 4. отделить текущую правду от сырья, истории и гипотез;
 5. проверить долги прошлого прохода;
 6. выбрать нужные стартеры из этой папки;
-7. назначить роли проверки;
-8. только потом редактировать файлы или давать финальный ответ.
+7. проверить, нужен ли God Mode, Consistency Auditor или Security Gate;
+8. назначить роли проверки;
+9. только потом редактировать файлы или давать финальный ответ.
 
 ## Файлы первого чтения
 
@@ -28,7 +29,9 @@ Status: `MANDATORY_READ_FIRST`
 1. `README.md`;
 2. `AGENTS.md`;
 3. `starters/README.md`;
-4. `starters/PROJECT_AUTOSTARTER_STATE.md`.
+4. `starters/05_AUTOSTARTER_ROUTER_GOD_MODE_RU.md`;
+5. `starters/PROJECT_AUTOSTARTER_STATE.md`;
+6. `WORKLOG.md`, если он существует.
 
 Если задача про Kwork:
 
@@ -74,6 +77,9 @@ Status: `MANDATORY_READ_FIRST`
 Что является сырьем:
 Что остается ПРОВЕРИТЬ:
 Активные стартеры:
+Почему выбран режим:
+Нужен ли God Mode:
+Нужен ли Consistency Auditor:
 Главная роль:
 Проверяющие роли:
 Что нельзя трогать:
@@ -87,4 +93,5 @@ Status: `MANDATORY_READ_FIRST`
 Что осталось needs_review:
 Что запрещено трогать дальше:
 Какие файлы читать следующей итерации:
+Обновлен ли WORKLOG:
 ```

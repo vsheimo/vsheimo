@@ -11,7 +11,8 @@
 3. Если задача про таблицы, рынок, заказы, конкурентов, навыки или карту проекта - читать [02_BIG_MAP_SPREADSHEET_CANON_RU.md](02_BIG_MAP_SPREADSHEET_CANON_RU.md).
 4. Если задача про Kwork, два аккаунта, заказы, кворки, тексты, обложки или отклики - читать [03_KWORK_MARKET_AND_PROFILE_RU.md](03_KWORK_MARKET_AND_PROFILE_RU.md).
 5. Если нужно понять, куда класть результат в Git - читать [04_REPOSITORY_ROUTING_RU.md](04_REPOSITORY_ROUTING_RU.md).
-6. Если контекст сжался или следующий агент потерял цепочку - читать [PROJECT_AUTOSTARTER_STATE.md](PROJECT_AUTOSTARTER_STATE.md).
+6. Для автозапуска режимов, God Mode, Consistency Auditor и worklog - читать [05_AUTOSTARTER_ROUTER_GOD_MODE_RU.md](05_AUTOSTARTER_ROUTER_GOD_MODE_RU.md).
+7. Если контекст сжался или следующий агент потерял цепочку - читать [PROJECT_AUTOSTARTER_STATE.md](PROJECT_AUTOSTARTER_STATE.md).
 
 ## Что взято из neutral-ai-project-starter
 
@@ -27,6 +28,9 @@
 6. evidence gate для каждого вывода;
 7. запрет `git add .`;
 8. запрет трогать private/raw/heavy без причины.
+9. God Mode + Infinity из обновления 2026-06-18;
+10. Consistency Auditor;
+11. Worklog как журнал повторяющихся паттернов.
 
 Не копируется целиком:
 

@@ -7,8 +7,10 @@
 Перед любой существенной задачей читать:
 
 1. `starters/00_AUTOSTART_READ_FIRST_RU.md`;
-2. `starters/PROJECT_AUTOSTARTER_STATE.md`;
-3. доменный стартер по задаче.
+2. `starters/05_AUTOSTARTER_ROUTER_GOD_MODE_RU.md`;
+3. `starters/PROJECT_AUTOSTARTER_STATE.md`;
+4. `WORKLOG.md`, если он есть;
+5. доменный стартер по задаче.
 
 Если задача про Kwork - дополнительно читать:
 
@@ -61,8 +63,30 @@
 7. Офицер риска;
 8. Оппонент;
 9. Переводчик оператора.
+10. Consistency Auditor;
+11. Infinity Reviewer, только в God Mode.
 
 Оппонент должен остановить ранний PASS, если результат красивый, но не соответствует задаче.
+Оппонент не спорит ради театра. Его цель - быстрее прийти к более сильному решению.
+
+## Автозапуск режимов
+
+Оператор не обязан писать название стартера. Агент сам выбирает режим по `starters/05_AUTOSTARTER_ROUTER_GOD_MODE_RU.md`.
+
+Всегда включены:
+
+1. Continuity Archivist And Debt Router;
+2. проверка долгов;
+3. source-of-truth;
+4. запрет работы из памяти.
+
+Редкие режимы:
+
+1. God Mode + Infinity - только при повторяющемся тупике, 3+ провалах или высокой цене ошибки.
+2. Consistency Auditor - перед отправкой наружу: фонд, инвестор, клиент, релиз.
+3. Security And Public Risk Gate - при privacy, secrets, legal/financial claims, public exposure.
+
+`WORKLOG.md` дописывается при существенных задачах, повторяющихся паттернах и исправлении старого провала.
 
 ## Git
 
@@ -79,4 +103,5 @@
 Что осталось needs_review:
 Что запрещено трогать дальше:
 Какие файлы читать следующей итерации:
+Обновлен ли WORKLOG:
 ```

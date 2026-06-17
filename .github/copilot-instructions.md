@@ -6,8 +6,10 @@
 
 1. `AGENTS.md`;
 2. `starters/00_AUTOSTART_READ_FIRST_RU.md`;
-3. `starters/PROJECT_AUTOSTARTER_STATE.md`;
-4. доменный стартер по задаче.
+3. `starters/05_AUTOSTARTER_ROUTER_GOD_MODE_RU.md`;
+4. `starters/PROJECT_AUTOSTARTER_STATE.md`;
+5. `WORKLOG.md`, если он есть;
+6. доменный стартер по задаче.
 
 Для Kwork-задач обязательно использовать:
 
@@ -32,3 +34,6 @@
 4. выдавать `ПРОВЕРИТЬ` за факт;
 5. создавать отдельный Kwork-репозиторий без решения оператора;
 6. оставлять длинные тире в пользовательских таблицах.
+7. включать God Mode на рутинные задачи.
+
+Перед финалом проверяй, нужен ли Consistency Auditor, и обновлен ли `WORKLOG.md`.
